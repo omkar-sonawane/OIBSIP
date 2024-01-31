@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color:beige;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background-color:rgba(197, 136, 56, 0.751);
+    min-height: 400px;
+    width: 540px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px black;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type = "text"] {
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 10px;
+   background-color: beige;
+    border: 2px solid #181717;
+    border-radius:10px;
+    outline: none;
+}
+
+button {
+    position: relative;
+    margin-left: 30px;
+    padding: 10px 10px;
+    background-color:beige;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    background-color: beige;
+    border-radius: 10px;
+    list-style-type: none;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background-color:beige;
+    color: black;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
